@@ -1,0 +1,24 @@
+{
+  "name": "firstrestapi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "tedious": "^8.3.0",
+    "nodemon": "^2.0.4",
+    "pg": "^8.2.2",
+    "sequelize": "^6.3.0",
+    "sequelize-msnodesqlv8": "^0.2.6-beta.8"
+   
+  }
+}
