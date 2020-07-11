@@ -30,6 +30,8 @@ Oluşturulan servisler ise aşağıdaki gibidir.
 
 S1)
  http://localhost:3000/signup  //(POST) kullanıcı oluşturmak için kullanılır
+ 
+ 
  {
      "name": "person1",
 
@@ -41,6 +43,7 @@ S1)
 
      "password": "hmt123456"
  }
+
 
 
 S2) 
@@ -56,6 +59,8 @@ S2)
 
 S3)
 http://localhost:3000/notes   //(POST methoduyla istekte bulunulmalı)  notları eklemek için kullanılır.
+
+
 
 {
 
@@ -73,6 +78,7 @@ yazılmalıdır.
 S4)
 http://localhost:3000/notes (GET) //notları listeleme için kullanılır
 
+
 **not eklerken Header kısmına 
 x-access-token: giriş yaparken alınan token 
 yazılmalıdır.
@@ -81,6 +87,7 @@ yazılmalıdır.
 
 S5)
 http://localhost:3000/note:id (DELETE) //notu silmek için kullanılır
+
 
 **not eklerken Header kısmına 
 x-access-token: giriş yaparken alınan token 
@@ -101,7 +108,6 @@ http://localhost:3000/note:id (UPDATED) //notu güncellemek için kullanılır
 **not eklerken Header kısmına 
 x-access-token: giriş yaparken alınan token 
 yazılmalıdır.
-
 
 
 #
