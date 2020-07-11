@@ -91,7 +91,8 @@ S4)
 http://localhost:3000/notes (GET) //notları listeleme için kullanılır
 
 
-**not eklerken Header kısmına 
+
+**not listelerken Header kısmına 
 x-access-token: giriş yaparken alınan token 
 yazılmalıdır.
 
@@ -101,7 +102,8 @@ S5)
 http://localhost:3000/note:id (DELETE) //notu silmek için kullanılır
 
 
-**not eklerken Header kısmına 
+
+**not silerken Header kısmına 
 x-access-token: giriş yaparken alınan token 
 yazılmalıdır.
 
@@ -117,7 +119,8 @@ http://localhost:3000/note:id (UPDATED) //notu güncellemek için kullanılır
     "detail": "yayınlandı "
 }
 
-**not eklerken Header kısmına 
+
+**not güncellerken Header kısmına 
 x-access-token: giriş yaparken alınan token 
 yazılmalıdır.
 
