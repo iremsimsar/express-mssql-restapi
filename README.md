@@ -30,6 +30,7 @@ $ npm install sequelize-msnodesqlv8 --save
 
 
 Test
+
 Test etmek için önce paketleri yükleyin ve çalıştırın.
 
 $ npm install
