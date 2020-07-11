@@ -12,13 +12,21 @@ Veri Tabanı Oluştur
 create database SampleDB;  //burada veritabanı yetkilendirme işlemleri de yapılmalıdır.
 
 Paketler
+
 $ npm install bcryptjs --save
+
 $ npm install express --save
+
 $ npm install jsonwebtoken --save
+
 $ npm install nodemon --save
+
 $ npm install sequelize --save
+
 $ npm install tedious --save 
+
 $ npm install sequelize-msnodesqlv8 --save
+
 
 
 Test
