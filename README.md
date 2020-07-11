@@ -9,6 +9,7 @@ Yetkilendirmelerle birlikte roller notes tablosundaki verileri listeleyip veri e
 Aynı şekilde user tablosunda da ekleme işlemi yapılabilir ve signin işlemi yapılmaktadır.
 
 Veri Tabanı Oluştur
+
 create database SampleDB;  //burada veritabanı yetkilendirme işlemleri de yapılmalıdır.
 
 Paketler
