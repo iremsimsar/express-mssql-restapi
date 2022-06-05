@@ -1,12 +1,4 @@
-"# Express-Sequelize-MSSQL-with-Node.js-Rest-API-" 
-
-
-Express , yönlendirme, ara katman yazılımı, görüntüleme sistemini destekleyen Node.js için en popüler web frameworklerinden biridir.
-Sequelize , Postgres, MySQL, SQL Server için basitleştirilmiş söz tabanlı bir Node.js ORM'dir.
-Bu projede, Express, MSSQL veritabanı ile Sequelize kullanılarak Node.js Rest API oluşturuldu.
-Api de User Admin ve PM adında rolleri vardır ve bu roller users tablosunda tutulup  rollerin yetkilendirme işlemleri yapılmıştır.
-Yetkilendirmelerle birlikte roller notes tablosundaki verileri listeleyip veri ekleyip, güncelleyip, silebilirler.
-Aynı şekilde user tablosunda da ekleme işlemi yapılabilir ve signin işlemi yapılmaktadır.
+"# express-mssql-restapi" 
 
 Veri Tabanı Oluştur
 
